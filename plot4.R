@@ -11,7 +11,7 @@ rm(eletric_power)
 data_selected_time <- paste(as.Date(data$Date), data$Time)
 data_selected$data_selected_time <- as.POSIXct(data_selected_time)
 
-## Function to plot the selected data from "Global Active Power" to show the kilowatts variation per day
+## Function to plot the selected datas in one image 
 data_plot_4 <- function() { par(mfrow=c(2,2), mar=c(4,4,2,1), oma=c(0,0,2,0))
   with(data_selected, {
     plot(Global_active_power~data_selected_time, type="l", 
