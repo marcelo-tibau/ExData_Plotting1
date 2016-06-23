@@ -1,3 +1,6 @@
+## Attention
+The weekdays shown in plot2.png, plot3.png and plot4.png are named in Portuguese. Translating it can be read as "qui" meaning "thu", "sex" meaning "fri" and "sáb" meaning "sat".
+
 ## Introduction
 
 This assignment uses data from
